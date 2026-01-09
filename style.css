@@ -15,7 +15,7 @@ html {
   }
   
   body {
-    background-color: black;
+    background-color: white;
     position: absolute;
     background-image: url('Pattern1.png'); /* Specify the correct path to the background image */
     background-size: 10%;
