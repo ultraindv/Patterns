@@ -1,0 +1,23 @@
+html {
+    height: 100%;
+    width: 100%;
+    cursor: none;
+  }
+  
+  @keyframes pan {
+    0% {
+      background-position: 0% 0;
+    }
+  
+    100% {
+      background-position: 100% 0;
+    }
+  }
+  
+  body {
+    background-color: black;
+    position: absolute;
+    background-image: url('Pattern1.png'); /* Specify the correct path to the background image */
+    background-size: 10%;
+    animation: pan 180s linear infinite;
+  }
